@@ -2,7 +2,7 @@
 ## Title: Driven
 ## Author: Lanrutcon
 ## Notes: SkyMinimap
-## Version: 1.0
+## Version: 1.0.1
 
 Utils.lua
 Driven.lua

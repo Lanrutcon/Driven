@@ -62,7 +62,7 @@ local function createTimeFrame()
 	
 	--timeFrame texture
 	timeFrame.texture = timeFrame:CreateTexture();
-	timeFrame.texture:SetTexture("Interface\\AddOns\\Driven\\timeFrame.blp");
+	timeFrame.texture:SetTexture("Interface\\AddOns\\Driven\\Textures\\timeFrame.blp");
 	timeFrame.texture:SetSize(256, 64);
 	timeFrame.texture:SetPoint("CENTER");
 	
@@ -200,7 +200,7 @@ local function setUpDriven()
 	hideBlizzardElements();
 	
 	--change border texture
-	MinimapBorder:SetTexture("Interface\\AddOns\\Driven\\border.blp");
+	MinimapBorder:SetTexture("Interface\\AddOns\\Driven\\Textures\\border.blp");
 	MinimapBorder:SetTexCoord(0,1,0,1);
 	MinimapBorder:SetSize(218, 218);
 	MinimapBorder:ClearAllPoints();
@@ -211,7 +211,7 @@ local function setUpDriven()
 	
 	--creates the fog texture in minimap
 	Minimap.fog = Minimap:CreateTexture(nil, "OVERLAY");
-	Minimap.fog:SetTexture("Interface\\AddOns\\Driven\\fog.blp");
+	Minimap.fog:SetTexture("Interface\\AddOns\\Driven\\Textures\\fog.blp");
 	Minimap.fog:SetSize(315, 315);
 	Minimap.fog:SetPoint("CENTER", Minimap);
 	
